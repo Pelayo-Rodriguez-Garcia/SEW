@@ -1,3 +1,4 @@
+/*
 h1, h2, h3, h4, h5, h6 {
     font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
     font-weight: bold;
@@ -83,8 +84,9 @@ p::first-letter {
 body {
     background-color:darkseagreen;
 }
+*/
 
-/*
+
 body {
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
@@ -98,4 +100,3 @@ h1 {
     padding: 100px 25px;
     text-align: center;     
 }
-*/
