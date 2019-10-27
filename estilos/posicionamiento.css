@@ -1,0 +1,24 @@
+/*(0,0,1) = 1*/
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "main main main" 
+    "header footer . ";
+}
+/*(0,0,1) = 1*/
+main {
+    grid-area: main;
+    justify-self: center;
+}
+/*(0,0,1) = 1*/
+footer {
+    grid-area: footer;
+    justify-self: center;
+}
+/*(0,0,1) = 1*/
+header {
+    grid-area: header;
+    justify-self: center;
+    
+}
