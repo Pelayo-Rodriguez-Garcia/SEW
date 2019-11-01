@@ -83,8 +83,8 @@
 							<xsl:for-each select = "hitos/hito">
 
 								<li>
-									<h4>Nombre de hito: </h4>
-									<xsl:value-of select="@nombre"/>
+									<h3><xsl:value-of select="@nombre"/></h3>
+									
 								</li>
 
 								<li>
@@ -123,7 +123,7 @@
 									<h4>Fotografías</h4>
 									<xsl:for-each select="fotografias/fotografia">
 										<p>
-                                            Fotografía <xsl:value-of select="fotografia/@numero"/>: 
+                                            Fotografía <xsl:value-of select="fotografias/fotografia/@numero"/>: 
 											<xsl:value-of select="."/>
 										</p>
 									</xsl:for-each>
