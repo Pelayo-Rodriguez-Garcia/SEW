@@ -15,9 +15,12 @@
 					<h1>Rutas variadas</h1>
 				</header>
 				<main>
+					<section>
 					<xsl:for-each select="rutas/ruta">
+					<article>
+
 						<h2>
-							<xsl:value-of select="nombre"/>
+							<xsl:value-of select="@nombre"/>
 						</h2>
 						<h3>
                                 Tipo:
@@ -129,8 +132,12 @@
 									</xsl:for-each>
 								</li>
 							</xsl:for-each>
-						</ul>
+						</ul>	
+						</article>					
 					</xsl:for-each>
+					</section>
+					
+					
 					<footer>
 						<div>Pelayo Rodríguez García</div>
 						<div class="validations">
