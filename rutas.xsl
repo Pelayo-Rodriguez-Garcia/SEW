@@ -67,7 +67,6 @@
 								<xsl:variable name= "referencia" select= "."/>
 								<li>
 									<a href ="{$referencia}">
-
 										<xsl:value-of select = "$referencia"/>
 									</a>
 
@@ -84,32 +83,47 @@
 							<xsl:for-each select = "hitos/hito">
 
 								<li>
-									<p>Nombre de hito: </p>
+									<h4>Nombre de hito: </h4>
 									<xsl:value-of select="@nombre"/>
 								</li>
 
-								<li>                             
-									Descripción del hito: 
+								<li>
+									<h4>Descripción del hito</h4>
 									<xsl:value-of select="descripcion-hito" />
 
 								</li>
 								<li>
-									<p>Longitud: <xsl:value-of select = "coordenadas-hito/longitud-hito"/>
-									</p>
-									<p>Latitud: <xsl:value-of select = "coordenadas-hito/latitud-hito"/>
-									</p>
-									<p>Altitud: <xsl:value-of select="coordenadas-hito/altitud-hito"/>
-									</p>
+
+									<h4>Coordenadas del hito </h4>
+									<ul>
+
+										<li>
+											<p>Longitud: <xsl:value-of select = "coordenadas-hito/longitud-hito"/>
+											</p>
+										</li>
+										<li>
+											<p>Latitud: <xsl:value-of select = "coordenadas-hito/latitud-hito"/>
+											</p>
+										</li>
+										<li>
+											<p>Altitud: <xsl:value-of select="coordenadas-hito/altitud-hito"/>
+											</p>
+										</li>
+									</ul>
 								</li>
-								<li> Distancia hito anterior: 
-									<xsl:value-of select="distancia-hito-anterior"/>
-									<xsl:value-of select="distancia-hito-anterior/@unidad"/>
+								<li>
+									<h4>Distancia hito anterior</h4>
+									<p>
+										<xsl:value-of select="distancia-hito-anterior"/>
+										<xsl:value-of select="distancia-hito-anterior/@unidad"/>
+									</p>
 								</li>
 
 								<li>
+									<h4>Fotografías</h4>
 									<xsl:for-each select="fotografias/fotografia">
 										<p>
-                                            Fotografía: 
+                                            Fotografía <xsl:value-of select="fotografia/@numero"/>: 
 											<xsl:value-of select="."/>
 										</p>
 									</xsl:for-each>
