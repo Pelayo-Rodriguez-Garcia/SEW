@@ -20,7 +20,7 @@
 					<article>
 
 						<h2>
-							<xsl:value-of select="@nombre"/>
+							<xsl:value-of select="nombre"/>
 						</h2>
 						<h3>
                                 Tipo:
@@ -125,9 +125,12 @@
 								<li>
 									<h4>Fotografías</h4>
 									<xsl:for-each select="fotografias/fotografia">
+									<xsl:variable name= "fotografia" select= "."/>
 										<p>
-                                            Fotografía <xsl:value-of select="fotografias/fotografia/@numero"/>: 
-											<xsl:value-of select="."/>
+                                            Fotografía <xsl:value-of select="@numero"/>:
+											<a href ="{$fotografia}"> 
+											<xsl:value-of select = "$fotografia"/>
+											</a>
 										</p>
 									</xsl:for-each>
 								</li>
