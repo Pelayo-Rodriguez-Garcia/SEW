@@ -16,6 +16,7 @@
 				</header>
 				<main>
 					<section>
+					<h2>Las mejores rutas que puedas encontrar </h2>
 					<xsl:for-each select="rutas/ruta">
 					<article>
 
@@ -145,7 +146,7 @@
 						<div>Pelayo Rodríguez García</div>
 						<div class="validations">
 							<a href="https://validator.w3.org/check?uri=referer">
-								<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt=" HTML5 Válido!" height=" 64" width="63" />
+								<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido!" height="64" width="63" />
 							</a>
 							<a href=" http://jigsaw.w3.org/css-validator/check/referer ">
 								<img src=" http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" height="31" width="88" />
