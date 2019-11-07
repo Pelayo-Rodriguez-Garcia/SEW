@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  
+  <?xml-stylesheet type="text/xsl" href= "https://raw.githubusercontent.com/Pelayo-Rodriguez-Garcia/SEW/master/rutas.xsl"?> 
+
+<!-- Se le añade lo necesario para validarlo con el schema -->
+<rutas>
+  <ruta fecha-inicio = "2001-10-26" hora-inicio = "21:32:52" agencia="Sin agencia" personas-adecuadas= "Cualquier persona">
+    <nombre>Ruta circular Salinas-Pinos Altos-Arnao-Salinas</nombre>
+    <tipo>Paisajítisca</tipo>
+    <transporte>A pie</transporte>
+    <duracion>PT01H32M0S</duracion>
+    <descripcion>
+      Partimos de la antigua oficina de turismo en Salinas junto a la locomotora “el rojillín” En la cercanía tenemos el Museo de Anclas y el acantilado del Piemonte a pocos metros de la costa, de un material sedimentario que provoca «argayos». La vegetación de pinos ayuda a asentar el terreno y puebla todo el promontorio y de ahí que haya pasado a la toponimia como Pinos Altos. La ruta comienza en una subida de cierta pendiente por detrás de las torres de la calle Príncipe de Asturias. Abundan especies como el pino, pero también autóctonos como algunos arces. El camino va ascendiendo por un arroyo entre caserío moderno y tradicional.
+
+      A medida que ascendemos, la vista se hace más amplia y espectacular. Al llegar arriba tenemos una bonita panorámica de la bahía de Salinas y Avilés, con la entrada al puerto y al fondo el Faro de Avilés; más allá se percibe el Cabo y Faro de Peñas. Mirando al sur la panorámica de las sierras costeras hacia el interior del concejo percibiendo el perfil de los generadores eólicos que se van implantando por los cordales de las sierras. Vamos viendo caseríos asturianos con hórreos y paneras, casas con corredor, capillas, etc. Más adelante nos encontramos la casona con capilla conocida como Casa Maruja en San Martín de Laspra. Podemos visitar la iglesia de San Martín de Laspra; su elemento más destacable es la torre del campanario y la ventana prerrománica en su fachada principal.
+
+      Tras la visita a esta iglesia retomamos la senda desde Casa Maruja a unos cien metros en dirección a la arboleda de Pinos Altos; una vez allí, seguimos por el sendero principal desde donde divisamos: Arnao, la playa, la fábrica, la punta Vidriera, y toda la costa. Desde el alto comenzamos a descender por el monte hacia el pueblo. Aquí cruzaremos la carretera para continuar por una senda hormigonada y estrecha que los lugareños usan para ir a la playa. A través de este ejemplo de poblado industrial llegaremos al final de la ruta en la playa de Arnao donde encontramos la antigua mina de Asturiana de Zinc, en proceso de conversión en museo. Si decidimos bajar a la playa podremos apreciar en su lado oeste todo un paisaje de fósiles del Devónico y Carbonífero que constituye el litoral y se prolonga hacia el norte hasta Devon, en Inglaterra.
+
+      El retorno se hará aprovechando una senda por la costa oriental de la playa de Arnao, bordeando la finca de los Sitges y su antigua residencia familiar para volver a recuperar la pista que nos devuelve a Pinos Altos. Pasaremos el área recreativa que está en lo alto y tomaremos una senda que se acerca al precipicio de Piemonte permitiéndonos gozar de la panorámica durante su recorrido hasta que volvemos otra vez a recuperar la pista que nos dejará en la playa de Salinas.
+    </descripcion>
+
+    <lugar-inicio>Salinas</lugar-inicio>
+    <direccion>Pinos Altos</direccion>
+    <coordenadas>
+      <longitud>43.575111   </longitud>
+      <latitud> -5.959650  </latitud>
+      <altitud>  0 </altitud>
+    </coordenadas>
+    <referencias>
+      <referencia numero="1">https://www.avilescomarca.info/rutas-y-paseos/ruta-circular-salinas-pinos-altos-arnao-salinas/  </referencia>
+      <referencia numero="2">
+        http://www.viajesyrutas.es/2017/07/ruta-pinos-altos-salinas-y-mina-arnao-asturias.html
+      </referencia>
+      <referencia numero="3">https://es.wikiloc.com/rutas-carrera-por-montana/salinas-pinos-altos-27062297</referencia>
+    </referencias>
+    <recomendacion>10</recomendacion>
+    <hitos>
+      <hito nombre="Mina de Arnao">
+        <descripcion-hito>
+          La Mina de Arnao es la mina más antigua de la Península Ibérica, con la excavación vertical más larga y de las primeras en usar un ferrocarril para el transporte de carbón.
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito>43.577822 </longitud-hito>
+          <latitud-hito> -5.983837   </latitud-hito>
+          <altitud-hito> 10  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">0</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.minube.com/fotos/rincon/2177096
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Museo anclas">
+        <descripcion-hito>
+          Museo de anclas situado entre Arnao y Salinas
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito>43.580634</longitud-hito>
+          <latitud-hito>  -5.967120  </latitud-hito>
+          <altitud-hito> 0  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">1</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.viajablog.com/museo-anclas-philippe-cousteau-asturias/
+          </fotografia>
+        </fotografias>
+      </hito>
+
+      <hito nombre="Salinas">
+        <descripcion-hito>
+          Pueblo costero que es central en la ruta
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito>43.575111</longitud-hito>
+          <latitud-hito>  -5.959650  </latitud-hito>
+          <altitud-hito> 0  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">1</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.turismoasturias.es/descubre/costa/playas/playa-de-salinas
+          </fotografia>
+        </fotografias>
+      </hito>
+    </hitos>
+  </ruta>
+  <ruta agencia="Sin agencia" personas-adecuadas= "Salvo niños y ancianos">
+    <nombre>Ruta del Cares</nombre>
+    <tipo>Senderismo</tipo>
+    <transporte>A pie</transporte>
+    <duracion>PT09H</duracion>
+    <descripcion>La Ruta del Cares está situada en el Parque Nacional de los Picos de Europa. Transcurre entre las localidades de Caín y Poncebos, atravesando el desfiladero que sigue el río en una de las rutas de senderismo más espectaculares que se pueden hacer en toda Europa.</descripcion>
+
+    <lugar-inicio>Caín</lugar-inicio>
+    <direccion>Poncebos</direccion>
+    <coordenadas>
+      <longitud>  43.213372  </longitud>
+      <latitud>   -4.905573   </latitud>
+      <altitud>   460  </altitud>
+    </coordenadas>
+    <referencias>
+      <referencia numero="1">http://www.viajesyrutas.es/2013/11/Ruta-del-Cares-Poncebos-Cain-Asturias-Leon.html  </referencia>
+      <referencia numero="2">http://www.rutadelcares.org/</referencia>
+      <referencia numero="3">https://www.larutadelcares.com/</referencia>
+    </referencias>
+    <recomendacion>10</recomendacion>
+    <hitos>
+      <hito nombre="Caín">
+        <descripcion-hito>
+          Pueblo que puede ser inicio o final de la ruta
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 43.213372 </longitud-hito>
+          <latitud-hito> -4.905573 </latitud-hito>
+          <altitud-hito>  460 </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">0</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">https://www.larutadelcares.com/Galeria-Fotos-Ruta-Cares</fotografia>
+
+        </fotografias>
+      </hito>
+      <hito nombre="Puente la Jaya">
+        <descripcion-hito>
+          Puente significativo de la ruta
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 43.254052 </longitud-hito>
+          <latitud-hito> -4.837014 </latitud-hito>
+          <altitud-hito>  300 </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">2.5</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">https://turismoenllanes.es/2015/02/15/rios/</fotografia>
+
+        </fotografias>
+      </hito>
+      <hito nombre="Poncebos">
+        <descripcion-hito>
+          Punto de partida desde Asturias
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 43.263073</longitud-hito>
+          <latitud-hito>  -4.831184  </latitud-hito>
+          <altitud-hito>  300 </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">10</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">https://www.minube.com/fotos/poncebos-c309340</fotografia>
+
+        </fotografias>
+      </hito>
+
+    </hitos>
+  </ruta>
+
+  <ruta agencia="Sin agencia" personas-adecuadas= "Mayor edad">
+    <nombre>Route 66</nombre>
+    <tipo>Experiencia vital</tipo>
+    <transporte>Coche</transporte>
+    <duracion>PT24H</duracion>
+    <descripcion>El primer día de lo que sería la ruta completa de la ruta 66.</descripcion>
+
+    <lugar-inicio>Chicago</lugar-inicio>
+    <direccion>Springfield</direccion>
+    <coordenadas>
+      <longitud> 41.879510  </longitud>
+      <latitud>  -87.624927  </latitud>
+      <altitud> 181  </altitud>
+    </coordenadas>
+    <referencias>
+      <referencia numero="1">https://www.molaviajar.com/ruta-66-dia-1-chicago-springfield-375-km/#Ruta_66_dia_1_Chicago-_Springfield_375_km  </referencia>
+      <referencia numero="2">https://es.wikipedia.org/wiki/Ruta_66</referencia>
+      <referencia numero="3">https://www.molaviajar.com/guia-ruta-66-que-recorrido-hacer-y-presupuesto-necesario/</referencia>
+    </referencias>
+    <recomendacion>10</recomendacion>
+    <hitos>
+      <hito nombre="Chicago">
+        <descripcion-hito>
+          Inicio de la ruta con el cartel histórico de inicio de la ruta 66.
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 41.879510 </longitud-hito>
+          <latitud-hito> -87.624927 </latitud-hito>
+          <altitud-hito> 181  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">0</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.eldiario.es/viajarahora/destino_america/Consejos-para-preparar-la-ruta-66-alquiler-coche-barato-mejor-ofertas-trazado-etapas-kilometros-cuantos-hacer-al-dia-moteles-economicos-precio-medio-circular-que-hacer-si-te-para-la-policia-en-Estados-Unidos-hoteles-reservas-comer-barato-ahorrar-cuanto-cuesta-un-viaje-presupuesto-gastos-entradas-habitaciones-cuantos-dias-recorrer_0_600540302.html
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Gemini Giant">
+        <descripcion-hito>
+          Conocida escultura en Willmington
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 41.310624 </longitud-hito>
+          <latitud-hito> -88.138556 </latitud-hito>
+          <altitud-hito> 180  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">95</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.pinterest.es/pin/469570698631787561/
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Springfield">
+        <descripcion-hito>
+          Conocida ciudad famosa por la serie de televisión de los Simpson
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 39.782126</longitud-hito>
+          <latitud-hito> -89.656369 </latitud-hito>
+          <altitud-hito> 170  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">238</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.illinoisinfocus.com/downtown-springfield.html
+          </fotografia>
+        </fotografias>
+      </hito>
+    </hitos>
+  </ruta>
+  <ruta agencia="Sin agencia" personas-adecuadas= "Cualquier persona">
+    <nombre>Great Ocean Road</nombre>
+    <tipo>Paisajítisca</tipo>
+    <transporte>Coche</transporte>
+    <duracion>PT04H</duracion>
+    <descripcion>Son 243 kilómetros de extensión que bordea la costa australiana sobre el estado de Victoria. Sobre su recorrido el paisaje arroja maravillas naturales como el arco de Londres ó los 12 apóstoles, sendas rocas creadas por la erosión durante millones de años de los acantilados de piedra caliza en el océano Antártico. Ideal para viajar a bordo de un descapotable para rodear pueblos pesqueros, selvas tropicales y parques nacionales.</descripcion>
+
+    <lugar-inicio>Geelong</lugar-inicio>
+    <direccion>Portland</direccion>
+    <coordenadas>
+      <longitud>  -38.146180 </longitud>
+      <latitud>  144.362537 </latitud>
+      <altitud> 0  </altitud>
+    </coordenadas>
+    <referencias>
+      <referencia numero="1">https://www.infobae.com/autos/2016/10/28/cuales-son-las-diez-rutas-mas-espectaculares-del-mundo/ </referencia>
+      <referencia numero="2">https://www.australia.com/es-cl/places/great-ocean-road.html</referencia>
+      <referencia numero="3">https://www.visitgreatoceanroad.org.au/</referencia>
+    </referencias>
+    <recomendacion>8</recomendacion>
+    <hitos>
+      <hito nombre="Geelong">
+        <descripcion-hito>
+          Comienzo de la ruta en un pueblo costero australiano
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito>  -38.146180 </longitud-hito>
+          <latitud-hito> 144.362537 </latitud-hito>
+          <altitud-hito>  0 </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">0</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.geelongaustralia.com.au/carousel/default.aspx
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Torquay">
+        <descripcion-hito>
+          Destino surfero más famoso en Australia
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito>  -38.334772  </longitud-hito>
+          <latitud-hito> 144.319688 </latitud-hito>
+          <altitud-hito>  0 </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">25</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.australia.com/es-cl/places/vic/vic-torquay.html
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Portland">
+        <descripcion-hito>
+          Una de las ciudades más antiguas conocidas en Australia
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito>  -38.357843  </longitud-hito>
+          <latitud-hito> 141.617761 </latitud-hito>
+          <altitud-hito>  0 </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">180</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            http://www.australiaforeveryone.com.au/vic/portland.html
+          </fotografia>
+        </fotografias>
+      </hito>
+    </hitos>
+  </ruta>
+  <ruta agencia="Sin agencia" personas-adecuadas= "Cualquier persona">
+    <nombre>Ruta del Valle del Lago en el parque Natural de Somiedo</nombre>
+    <tipo>Paisajítisca</tipo>
+    <transporte>A pie</transporte>
+    <duracion>PT08H</duracion>
+    <descripcion>Ruta a pie por Somiedo en busca de un lago escondido entre las montañas, recóndito en un valle precioso.</descripcion>
+
+    <lugar-inicio>Alto de la Farrapona</lugar-inicio>
+    <direccion>Lago del Valle</direccion>
+    <coordenadas>
+      <longitud> 43.057133  </longitud>
+      <latitud>  -6.089964 </latitud>
+      <altitud>  1500 </altitud>
+    </coordenadas>
+    <referencias>
+      <referencia numero="1">http://www.viajesyrutas.es/2018/10/ruta-del-valle-del-lago-parque-somiedo.html  </referencia>
+      <referencia numero="2">https://www.39x28altimetrias.com/lafarraponaasturias.html</referencia>
+      <referencia numero="3">https://visitarasturias.blogspot.com/2011/11/ruta-del-valle-del-valle-del-lago.html</referencia>
+    </referencias>
+    <recomendacion>9</recomendacion>
+    <hitos>
+      <hito nombre="Alto de la Farrapona">
+        <descripcion-hito>
+          Comienzo de la ruta en un aparcamiento amplio donde dejar el coche.
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 43.057133 </longitud-hito>
+          <latitud-hito> -6.089964 </latitud-hito>
+          <altitud-hito> 1500  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">0</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            http://www.loasturiano.com/lugar-alto-de-la-farrapona-318
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Lago de la Cueva">
+        <descripcion-hito>
+          Lago en un tramo intermedio de la ruta
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 43.054011 </longitud-hito>
+          <latitud-hito> -6.103021 </latitud-hito>
+          <altitud-hito> 1500  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">2</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://www.turismoasturias.es/descubre/naturaleza/otros-espacios/lagos/lago-la-cueva
+          </fotografia>
+        </fotografias>
+      </hito>
+      <hito nombre="Lago del Valle">
+        <descripcion-hito>
+          Fin de la ruta en un precioso lago incrustado en un valle
+        </descripcion-hito>
+        <coordenadas-hito>
+          <longitud-hito> 43.041241 </longitud-hito>
+          <latitud-hito> -6.140219 </latitud-hito>
+          <altitud-hito> 1500  </altitud-hito>
+        </coordenadas-hito>
+        <distancia-hito-anterior unidad = "km">5</distancia-hito-anterior>
+        <fotografias>
+          <fotografia numero="1">
+            https://visitarasturias.blogspot.com/2011/11/ruta-del-valle-del-valle-del-lago.html
+          </fotografia>
+        </fotografias>
+      </hito>
+    </hitos>
+  </ruta>
+</rutas>
