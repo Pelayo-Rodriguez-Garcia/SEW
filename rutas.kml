@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>Ruta circular Salinas-Pinos Altos-Arnao-Salinas</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>absoluto</altitudeMode>
+                <coordinates> -5.983837,43.577822
+                -5.967120,43.580634
+                -5.959650,43.575111</coordinates>
+            </LineString>
+            <Style>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+        <Placemark>
+            <name>Ruta del Cares</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>absoluto</altitudeMode>
+                <coordinates> -4.905573,43.213372
+                -4.837014,43.254052
+                -4.831184,43.263073</coordinates>
+            </LineString>
+            <Style>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+        <Placemark>
+            <name>Route 66</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>absoluto</altitudeMode>
+                <coordinates> -87.624927,41.879510
+                 -88.138556,41.310624
+                 -89.656369,39.782126</coordinates>
+            </LineString>
+            <Style>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+        <Placemark>
+            <name>Great Ocean Road</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>absoluto</altitudeMode>
+                <coordinates> 144.362537,-38.146180
+                  144.319688,-38.334772
+                  141.617761,-38.357843  </coordinates>
+            </LineString>
+            <Style>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+        <Placemark>
+            <name>Ruta del Valle del Lago en el parque Natural de Somiedo</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>absoluto</altitudeMode>
+                <coordinates> -6.089964,43.057133
+                  -6.103021,43.054011
+                  -6.140219,43.041241 </coordinates>
+            </LineString>
+            <Style>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+    </Document>
+</kml>
